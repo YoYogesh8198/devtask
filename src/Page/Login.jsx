@@ -25,7 +25,6 @@ const Login = () => {
                     </div>
                     <div className="button">
                     <Link to={'/profile'}>Login</Link>
-                         {/* <button>Login</button> */}
                     </div>
                </form>
           </section>

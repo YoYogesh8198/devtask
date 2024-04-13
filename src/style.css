@@ -187,13 +187,15 @@
 }
 .login .button a {
   height: 100%;
-  width: 100%;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: #cbcbcb 0% 0% no-repeat padding-box;
   border-radius: 6px;
   opacity: 1;
-  border: none;
-  font-weight: bolder;
   color: white;
+  font-weight: bolder;
 }
 
 /* Signup */
@@ -312,7 +314,7 @@
   width: 335px;
   height: 46px;
 }
-.signup .button a {
+.signup .button button {
   height: 100%;
   width: 100%;
   background: #6c25ff 0% 0% no-repeat padding-box;
